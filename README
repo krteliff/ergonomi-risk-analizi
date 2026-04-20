@@ -1,0 +1,23 @@
+# 🦺 Ergonomic Risk Analysis System
+
+> Real-time ergonomic risk detection for workplace safety 
+> using computer vision and data analytics.
+
+## Problem
+Manual ergonomic assessments are time-consuming and subjective. 
+This system automates posture analysis to detect risks in arm, 
+back, and knee regions in real time.
+
+## Approach
+- Captured body joint angles using MediaPipe + OpenCV
+- Classified risk levels (low / medium / high) based on angle thresholds
+- Logged and analyzed data with Pandas + NumPy
+- Reported findings through structured Excel outputs
+
+## Key Results
+- Tested in real-time simulation environment by 2 team members
+- Joint angles measured with 90%+ accuracy
+- Risk classifications validated across arm, back, and knee regions
+
+## Tech Stack
+`Python` `OpenCV` `MediaPipe` `Pandas` `NumPy` `Excel`
